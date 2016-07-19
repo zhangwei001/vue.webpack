@@ -44,7 +44,7 @@ app.get('*', (req, res) => {
   })
 })
 
-const port = process.env.NODE_PORT || 3030
+const port = process.env.NODE_PORT || 3031
 app.listen(port, () => {
   console.log(`Running at http://localhost:${port}`)
 })
